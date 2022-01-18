@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif; 
+}
+html {
+    height: 100%;
+}
+
+header img {
+    max-height: 5rem;
+}
+
+nav {
+    background-color: rgba(27, 36, 95, 1);
+}
+
+body {
+    height: 100%;
+    background: linear-gradient(0deg, rgba(16, 37, 78, 0.7), rgba(16, 37, 78, 0.7)), url('/PPDB/media/image/monumen-sma-pradita-dirgantara-2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+ 
+}
+
+
+.bg-img {
+   z-index:-1;
+}
+
+.main {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    margin-top: 5rem;
+    padding: 2rem;
+    background: rgba(77, 77, 77, 0.05);
+  color: white;
+  backdrop-filter: blur(10px);
+  box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.5);
+  border: 2px solid rgba(255, 255, 255, 0.05);
+}
+
+.card-title {
+    border-bottom: 5px solid black;
+    padding-bottom: 1rem;
+}
+
+.text-muted {
+    margin-top: 1rem;
+}
+
+.form-group {
+    margin: 1rem 0;
+}
+
+.form-control{
+    background-color: rgba(77,77,77,0.5);
+    color: white;
+}
+
+.form-control:focus{
+    background-color: rgba(77,77,77,0.5);
+    border-color: rgba(255,255,255,0.2);
+    color: white;
+}
+
+.btn {
+    margin-top: 1rem;
+}
+
+.fa-search {
+    border-left: 1px solid white;
+    padding-left: 1rem;
+    margin-left: 1rem;
+}
+footer {
+    color: white;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 50%;
+    margin-bottom: 2rem;
+}
+
