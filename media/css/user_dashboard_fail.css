@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif; 
+}
+
+header img {
+    max-height: 5rem;
+}
+
+nav {
+    background-color: rgba(27, 36, 95, 1);
+}
+
+body {
+    background: linear-gradient(0deg, rgba(16, 37, 78, 0.7), rgba(16, 37, 76, 0.7)), url('/PPDB/media/image/monumen-sma-pradita-dirgantara-2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+
+#logo-pradita {
+    display: none;
+}
+
+.card {
+    margin: 5rem 0;
+    background-color: rgba(16, 37, 78, 0.55);
+    color: white;
+}
+
+.card-header {
+    background: linear-gradient(0deg, rgba(166, 0, 0, 1), rgba(255, 0, 0, 1));
+}
+
+.card-body img {
+    margin: 2rem 0;
+}
+
+.card-footer {
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+.color-yellow {
+    color: rgba(255, 197, 0, 1);
+    font-weight: 500;
+}
+
+footer {
+    color: white;
+    width: 50%;
+    margin-bottom: 2rem;
+}
+
