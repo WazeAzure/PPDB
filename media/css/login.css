@@ -6,6 +6,7 @@
 }
 html {
     height: 100%;
+    overflow-y: scroll;
 }
 
 header img {
@@ -27,7 +28,6 @@ body {
 
 
 .bg-img {
-   z-index:-1;
 }
 
 .main {
@@ -35,6 +35,12 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.wrapper {
+    position: relative;
+    min-height: 100%;
+    padding-bottom: 100px;
 }
 
 .card {
@@ -80,12 +86,15 @@ body {
     padding-left: 1rem;
     margin-left: 1rem;
 }
+
 footer {
     color: white;
+    /*
     position: absolute;
     bottom: 0;
     left: 0;
     width: 50%;
+    */
+    margin-top: 5rem;
     margin-bottom: 2rem;
 }
-
