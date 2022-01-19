@@ -20,6 +20,12 @@ body {
     height: 100%;
 }
 
+.wrapper {
+    position: relative;
+    min-height: 100%;
+    padding-bottom: 100px;
+}
+
 #logo-pradita {
     display: none;
 }
@@ -52,5 +58,8 @@ footer {
     color: white;
     width: 50%;
     margin-bottom: 2rem;
+    position: relative;
+    min-height:100%;
+    margin-bottom: -40px; /* Put negative height of the footer here */
+    padding-bottom: 40px;
 }
-
