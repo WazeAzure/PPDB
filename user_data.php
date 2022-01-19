@@ -42,6 +42,8 @@
         } else{
             include 'user_dashboard_fail.php';
         } 
+    } else {
+        // include '';
     }
 
     $conn->close();
