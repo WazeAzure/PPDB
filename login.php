@@ -4,11 +4,12 @@
         <link rel="stylesheet" type="text/css" href="media/css/login.css">
     </head>
     <body>
+        <div class="wrapper">
         <?php include 'header-template.php'?>
         <main>
             <div class="main container">
                 <div class="card align-items-center">
-                    <h2 class="card-title">Hasil Seleksi PPDB 2022</h2>
+                    <h2 class="card-title">eleksi PPDB 2022</h2>
                     <p class="text-muted">Masukkan Nomor Pendaftaran PPDB dan Tanggal Lahir</p>
                     <form METHOD="POST" ACTION="user_data.php">
                         <label for="user_no">NISN</label>
@@ -37,5 +38,6 @@
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 
         <?php include 'footer-template.php'?>
+    </div>
     </body>
 </html>
