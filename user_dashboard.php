@@ -4,6 +4,7 @@
     <link rel="stylesheet" type="text/css" href="media/css/user_dashboard.css">
     </head>
     <body>
+        <div class="wrapper">
         <?php include 'header-template.php'?>
         <main>
             <div class="main container">
@@ -38,5 +39,6 @@
             </div>
         </main>
         <?php include 'footer-template.php'?>
+        </div>
     </body>
 </html>
