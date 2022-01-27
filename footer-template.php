@@ -1,5 +1,5 @@
-<footer class="container">
-    <div class="footer-container text-center text-lg-start">
+<footer class="container-fluid">
+    <div class="footer-container text-center">
         <small>Copyright &copy; 2022 SMA PRADITA DIRGANTARA. All Rights Reserved</small>
     </div>
 </footer>
