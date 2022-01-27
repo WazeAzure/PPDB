@@ -9,7 +9,7 @@
         <main>
             <div class="main container">
                 <div class="card align-items-center">
-                    <h2 class="card-title">eleksi PPDB 2022</h2>
+                    <h2 class="card-title">Seleksi PPDB 2022</h2>
                     <p class="text-muted">Masukkan Nomor Pendaftaran PPDB dan Tanggal Lahir</p>
                     <form METHOD="POST" ACTION="user_data.php">
                         <label for="user_no">NISN</label>
