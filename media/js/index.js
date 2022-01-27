@@ -50,10 +50,10 @@ let display = (time) => {
 
 let timerApp = function(){
     var today = new Date();
-    var finalDate = new Date("2022-01-17 15:53:0");
+    var finalDate = new Date("2022-01-28 20:13:0");
     var daysToFinal = dateDifference(today, finalDate);
     display(daysToFinal);
-    console.log(daysToFinal)
+    // console.log(daysToFinal)
 }
 
 const timer = setInterval(timerApp, 1000);

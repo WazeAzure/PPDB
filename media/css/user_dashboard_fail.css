@@ -10,7 +10,7 @@ header img {
 }
 
 nav {
-    background-color: rgba(27, 36, 95, 1);
+    background-color: rgba(26, 42, 93, 1);
 }
 
 body {
@@ -34,8 +34,13 @@ body {
     background: linear-gradient(0deg, rgba(166, 0, 0, 1), rgba(255, 0, 0, 1));
 }
 
+.card-header h3 {
+    font-weight: 900;
+}
+
 .card-body img {
     margin: 2rem 0;
+    max-width: 90%;
 }
 
 .card-footer {
@@ -45,7 +50,7 @@ body {
 
 .color-yellow {
     color: rgba(255, 197, 0, 1);
-    font-weight: 500;
+    font-weight: 700;
 }
 
 footer {
@@ -54,3 +59,39 @@ footer {
     margin-bottom: 2rem;
 }
 
+
+@media (min-width: 992px) {
+    html {
+        height: 100%;
+    }
+    .main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .card {
+        width: 80%;
+    }
+    .card-body {
+        display: flex;    
+        flex-direction: row-reverse;
+    } 
+
+    .card-body img {
+        margin: 0;
+    }
+
+    .card-body-right {
+        width: 100%;
+    }
+
+    .card-body-right-bottom {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .card-body-right-bottom .row {
+        order: 1;
+        flex-grow: 2;
+    }
+}

@@ -9,30 +9,26 @@ html {
 }
 body {
     height: 100%;
-}
-.body {
     background: linear-gradient(0deg, rgba(16, 37, 78, 0.7), rgba(16, 37, 78, 0.7)), url('/PPDB/media/image/monumen-sma-pradita-dirgantara-2.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100%;
 }
 header img{
     max-height: 5rem;
 }
 
 nav {
-    background-color: rgba(27,36,95,1);
+    background-color: rgba(26,41,93,1);
 }
 main {
     padding-top: 3rem;
 }
 main h1, h2{
     padding-top: .5rem;
+    font-weight: 900;
 }
 
 .timer-app {
-    margin-bottom: 3rem;
-    margin-top: 3rem;
+    margin-bottom: 2rem;
+    margin-top: 5rem;
 }
 
 table {
@@ -51,4 +47,21 @@ table th {
 }
 .display-1 {
     width: 0.5rem;
+}
+
+#text-pengumuman {
+    text-decoration: underline;
+    font-weight: 700;
+}
+footer {
+    position: absolute;
+    bottom: 2rem;
+    color: white;
+    width: 100%;
+}
+
+@media (min-width: 992px){
+    body {
+        background-size: cover;
+    }
 }

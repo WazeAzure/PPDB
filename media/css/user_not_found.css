@@ -1,4 +1,4 @@
-}* {
+* {
     margin: 0;
     padding: 0;
     text-decoration: none;
@@ -15,60 +15,33 @@ nav {
 
 body {
     background: linear-gradient(0deg, rgba(16, 37, 78, 0.7), rgba(16, 37, 76, 0.7)), url('/PPDB/media/image/monumen-sma-pradita-dirgantara-2.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
     height: 100%;
-}
-
-.wrapper {
-    position: relative;
-    min-height: 100%;
-    padding-bottom: 100px;
-}
-
-#logo-pradita {
-    display: none;
-}
-
-.card {
-    margin: 5rem 0;
-    background-color: rgba(16, 37, 78, 0.55);
+    text-align: center;
     color: white;
+    font-weight: 900;
 }
 
-.card-header {
-    background: linear-gradient(0deg, rgba(20, 28, 161, 1), rgba(53, 92, 205));
-}
-
-.card-header h3 {
-    font-weight: 700;
-}
-
-.card-body img {
+body h1 {
     margin: 2rem 0;
 }
 
-.card-footer {
-    text-align: center;
-    padding-bottom: 2rem;
+body a {
+    color: white;
+    margin-bottom: 2rem;
 }
 
-.color-yellow {
-    color: rgba(255, 197, 0, 1);
-    font-weight: 700;
-}
 
 footer {
     color: white;
     width: 50%;
     margin-bottom: 2rem;
-    position: relative;
-    min-height:100%;
-    margin-bottom: -40px; /* Put negative height of the footer here */
-    padding-bottom: 40px;
 }
 
+
 @media (min-width: 992px) {
+    html {
+        height: 100%;
+    }
     .main {
         display: flex;
         justify-content: center;
@@ -98,5 +71,11 @@ footer {
     .card-body-right-bottom .row {
         order: 1;
         flex-grow: 2;
+    }
+}
+
+@media (min-width: 992px){
+    body {
+        background-size: cover;
     }
 }
