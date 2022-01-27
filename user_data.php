@@ -43,7 +43,7 @@
             include 'user_dashboard_fail.php';
         } 
     } else {
-        // include '';
+        include 'user_not_found.php';
     }
 
     $conn->close();
