@@ -50,7 +50,7 @@ let display = (time) => {
 
 let timerApp = function(){
     var today = new Date();
-    var finalDate = new Date("2022-01-28 20:13:0");
+    var finalDate = new Date("2022-01-28 20:52:0");
     var daysToFinal = dateDifference(today, finalDate);
     display(daysToFinal);
     // console.log(daysToFinal)
