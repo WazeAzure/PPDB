@@ -15,7 +15,8 @@
                     </div>
                     <div class="card-body">
                         <div class="card-body-left">
-                            <img class="img-fluid" src="<?php echo "data:image/jpeg;base64,".base64_encode($row['Gambar'])?>"/>
+                            <!-- <img class="img-fluid" src="<?php echo "data:image/jpeg;base64,".base64_encode($row['Gambar'])?>"/> -->
+                            <img class="img-fluid" src="<?php echo "media/image/".$row['Gambar']?>">
                         </div>
                         <div class="card-body-right">
                             <p class="h3 color-yellow">NISN: <?php echo $row['NISN']?></p>
