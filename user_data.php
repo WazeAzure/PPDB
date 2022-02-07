@@ -23,7 +23,8 @@
         die("Connection Failed".$conn->connect_error);
     }
     // echo "Connection Succeed";
-
+    if($user_ttl_mm < 10) $user_ttl_mm = '0'.$user_ttl_mm;
+    if($user_ttl_dd < 10) $user_ttl_dd = '0'.$user_ttl_dd;
     $sql = "SELECT * FROM Daftar_Siswa_Lolos WHERE NISN={$user_nisn} AND TTL='{$user_ttl_yy}-{$user_ttl_mm}-{$user_ttl_dd}'";
     $result = $conn->query($sql);
 
